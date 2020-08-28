@@ -139,8 +139,8 @@ public class DefaultSamplerCreator extends AbstractSamplerCreator {
 
         computeProtocol(sampler, request);
 
-        computeContentEncoding(sampler, request,
-                pageEncodings, formEncodings);
+        //computeContentEncoding(sampler, request,
+        //        pageEncodings, formEncodings);
 
         computePath(sampler, request);
 
